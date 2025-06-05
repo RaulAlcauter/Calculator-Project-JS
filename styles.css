@@ -1,0 +1,99 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+:root{
+    --back-color: #17171C;
+    --op-color: #4B5EFC;
+    --num-color: #2E2F38;
+    --op2-color: #4E505F;
+    --body-color: #F1F2F3;
+}
+
+body{
+    background: var(--body-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--body-color);
+    font-weight: 300;
+    height: 5vh;
+    width: 10vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    font-size: 23px;
+}
+
+.container{
+    background: var(--back-color);
+    height: 70vh;
+    width: 50vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.history{
+    color: var(--body-color);
+    opacity: 0.5;
+    font-weight: 175;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.calc-container{
+    border-radius: 30px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.number-text{
+    color: var(--body-color);
+    font-size: 80px;
+    align-self: flex-end;
+    font-weight: 175;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+.buttons-container{
+    border-radius: 30px;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.grey-button{
+    background:  var(--op2-color);
+}
+
+.op-button{
+    background: var(--op-color);
+}
+
+.num-button{
+    background: var(--num-color);
+}
+
+.unused{
+    cursor: auto;
+}

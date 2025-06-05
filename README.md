@@ -1,3 +1,3 @@
 # Calculator-Project-JS
 
-Calculator Projecto (TOP) for basic JS learning
+Calculator Project (TOP) for basic JS learning
